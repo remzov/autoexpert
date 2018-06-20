@@ -1,1 +1,3 @@
-import "./uikit.js"
+import "./uikit.js";
+import "./slider.js";
+import "./menu.js"
