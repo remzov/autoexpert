@@ -1,8 +1,9 @@
 @import "../../node_modules/uikit/src/less/uikit.theme.less";
 
-@container-max-width: 1240px;
+@container-max-width: 1180px;
 @container-large-max-width: 1620px;
 @global-font-family: "PT Sans", sans-serif;
+@global-font-size: 16px;
 @global-color: #091129;
 @global-line-height: 1.875;
 
@@ -16,4 +17,14 @@
 
 .hook-base-h3() {
     margin: 0;
+}
+
+.hook-breadcrumb-divider() {
+    content: '→';    
+    margin: 0 10px;
+    color: #11235a;
+}
+
+.hook-lightbox() {
+    background: rgba(0,0,0,0.7);
 }

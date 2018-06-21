@@ -144,7 +144,18 @@ eval("var g;\r\n\r\n// This works in non-strict mode\r\ng = (function() {\r\n\tr
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var map = {\n\t\"./index.html\": \"./src/index.html\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\tvar module = __webpack_require__(id);\n\treturn module;\n}\nfunction webpackContextResolve(req) {\n\tvar id = map[req];\n\tif(!(id + 1)) { // check for number or string\n\t\tvar e = new Error('Cannot find module \"' + req + '\".');\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn id;\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./src sync recursive \\\\.html$\";\n\n//# sourceURL=webpack:///./src_sync_\\.html$?");
+eval("var map = {\n\t\"./about.html\": \"./src/about.html\",\n\t\"./index.html\": \"./src/index.html\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\tvar module = __webpack_require__(id);\n\treturn module;\n}\nfunction webpackContextResolve(req) {\n\tvar id = map[req];\n\tif(!(id + 1)) { // check for number or string\n\t\tvar e = new Error('Cannot find module \"' + req + '\".');\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn id;\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./src sync recursive \\\\.html$\";\n\n//# sourceURL=webpack:///./src_sync_\\.html$?");
+
+/***/ }),
+
+/***/ "./src/about.html":
+/*!************************!*\
+  !*** ./src/about.html ***!
+  \************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"about.html\";\n\n//# sourceURL=webpack:///./src/about.html?");
 
 /***/ }),
 
@@ -210,7 +221,18 @@ eval("module.exports = __webpack_require__.p + \"fonts/PTSans-Regular.woff?db796
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var map = {\n\t\"./dev-logo.png\": \"./src/img/dev-logo.png\",\n\t\"./grid.png\": \"./src/img/grid.png\",\n\t\"./light.png\": \"./src/img/light.png\",\n\t\"./logo.png\": \"./src/img/logo.png\",\n\t\"./shadow.png\": \"./src/img/shadow.png\",\n\t\"./slide.jpg\": \"./src/img/slide.jpg\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\tvar module = __webpack_require__(id);\n\treturn module;\n}\nfunction webpackContextResolve(req) {\n\tvar id = map[req];\n\tif(!(id + 1)) { // check for number or string\n\t\tvar e = new Error('Cannot find module \"' + req + '\".');\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn id;\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./src/img sync recursive ^\\\\.\\\\/.*$\";\n\n//# sourceURL=webpack:///./src/img_sync_^\\.\\/.*$?");
+eval("var map = {\n\t\"./about-header.jpg\": \"./src/img/about-header.jpg\",\n\t\"./dev-logo.png\": \"./src/img/dev-logo.png\",\n\t\"./document.jpg\": \"./src/img/document.jpg\",\n\t\"./grid.png\": \"./src/img/grid.png\",\n\t\"./light.png\": \"./src/img/light.png\",\n\t\"./logo.png\": \"./src/img/logo.png\",\n\t\"./service-pic.jpg\": \"./src/img/service-pic.jpg\",\n\t\"./shadow.png\": \"./src/img/shadow.png\",\n\t\"./slide.jpg\": \"./src/img/slide.jpg\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\tvar module = __webpack_require__(id);\n\treturn module;\n}\nfunction webpackContextResolve(req) {\n\tvar id = map[req];\n\tif(!(id + 1)) { // check for number or string\n\t\tvar e = new Error('Cannot find module \"' + req + '\".');\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn id;\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./src/img sync recursive ^\\\\.\\\\/.*$\";\n\n//# sourceURL=webpack:///./src/img_sync_^\\.\\/.*$?");
+
+/***/ }),
+
+/***/ "./src/img/about-header.jpg":
+/*!**********************************!*\
+  !*** ./src/img/about-header.jpg ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/about-header.jpg?988fa470980c08293b231f29f3346f37\";\n\n//# sourceURL=webpack:///./src/img/about-header.jpg?");
 
 /***/ }),
 
@@ -222,6 +244,17 @@ eval("var map = {\n\t\"./dev-logo.png\": \"./src/img/dev-logo.png\",\n\t\"./grid
 /***/ (function(module, exports, __webpack_require__) {
 
 eval("module.exports = __webpack_require__.p + \"img/dev-logo.png?aa5591c69afe8c3852744f387b6fd91a\";\n\n//# sourceURL=webpack:///./src/img/dev-logo.png?");
+
+/***/ }),
+
+/***/ "./src/img/document.jpg":
+/*!******************************!*\
+  !*** ./src/img/document.jpg ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/document.jpg?7d7f989fd6d69ef223d4f2a3ef9b0542\";\n\n//# sourceURL=webpack:///./src/img/document.jpg?");
 
 /***/ }),
 
@@ -255,6 +288,17 @@ eval("module.exports = __webpack_require__.p + \"img/light.png?1b9a4552f42faa153
 /***/ (function(module, exports, __webpack_require__) {
 
 eval("module.exports = __webpack_require__.p + \"img/logo.png?731702cde83bf7e7b233058b3401e108\";\n\n//# sourceURL=webpack:///./src/img/logo.png?");
+
+/***/ }),
+
+/***/ "./src/img/service-pic.jpg":
+/*!*********************************!*\
+  !*** ./src/img/service-pic.jpg ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/service-pic.jpg?f16c8726081892f7cfce1cd6e653fbb0\";\n\n//# sourceURL=webpack:///./src/img/service-pic.jpg?");
 
 /***/ }),
 
